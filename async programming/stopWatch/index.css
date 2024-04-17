@@ -1,0 +1,43 @@
+* {
+     margin: 0;
+     padding: 0;
+}
+
+#container {
+     height: auto;
+     width: 50%;
+     margin: 200px auto 10px auto;
+     box-sizing: border-box;
+     background-color: lightblue;
+     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.stopwatch {
+     /* border: 1px solid green; */
+     height: auto;
+     width: auto;
+     margin: auto;
+     text-align: center;
+     line-height: 80px;
+}
+
+button {
+     width: 80px;
+     height: 40px;
+     margin: 10px;
+     font-size: 20px;
+     font-family: sans-serif;
+     font-weight: 300;
+}
+
+h2 {
+     color: black;
+     font-size: 30px;
+     font-weight: 600;
+}
+
+h1 {
+     text-align: center;
+     font-size: 35px;
+  
+}
