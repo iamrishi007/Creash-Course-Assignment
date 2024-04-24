@@ -1,0 +1,18 @@
+.div1 {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     justify-content: space-evenly;
+     padding: 5px;
+     border: 1px solid red;
+}
+
+.div2{
+     border: 1px solid black;
+     margin: 5px;
+     align-content: center;
+     text-align: center;
+
+}
+p{
+     font-size: 18px;
+}
