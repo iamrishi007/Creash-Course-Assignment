@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Todos</title>
+</head>
+
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cont {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px;
+}
+
+#btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#btn:hover {
+    background-color: #0056b3;
+}
+
+.cont p {
+    padding: 10px;
+}
+
+.cont p:nth-child(1) {
+    background-color: #f0f0f0;
+}
+
+.cont p:nth-child(2) {
+    font-weight: bold;
+}
+
+.cont p:nth-child(3) {
+    color: green;
+}
+
+.cont p:nth-child(4) {
+    font-style: italic;
+}
+
+
+</style>
+<body>
+     <div id="root">
+          
+     </div>
+     <button id="btn">fetch User</button>
+</body>
+
+</html>
+
+<script src="index.js"></script>
